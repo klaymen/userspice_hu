@@ -85,9 +85,9 @@ $lang = array_merge($lang,array(
 // Account Page
 $lang = array_merge($lang,array(
 	"ACCT_EDIT"					=> "Adatlap szerkesztése",
-	"ACCT_2FA"					=> "Kétfaktoros hitelesítés",
+	"ACCT_2FA"					=> "Kétlépcsős hitelesítés",
 	"ACCT_SESS"					=> "Munkamenetek kezelése",
-	"ACCT_HOME"					=> "Fiók kezdőlapja",
+	"ACCT_HOME"					=> "Felhasználói Fiók",
 	"ACCT_SINCE"				=> "Csatlakozott",
 	"ACCT_LOGINS"				=> "Bejelentkezések száma",
 	"ACCT_SESSIONS"			=> "Aktív munkamenetek száma",
@@ -106,7 +106,7 @@ $lang = array_merge($lang,array(
 		"GEN_MAX"					=> "max",
 		"GEN_CHAR"				=> "karakter", //as in characters
 		"GEN_SUBMIT"			=> "Beküldés",
-		"GEN_MANAGE"			=> "Kezelés",
+		"GEN_MANAGE"			=> " ",
 		"GEN_VERIFY"			=> "Ellenőrzés",
 		"GEN_SESSION"			=> "Munkamenet",
 		"GEN_SESSIONS"		=> "Munkamenetek",
@@ -235,7 +235,7 @@ $lang = array_merge($lang,array(
 		"MSG_DEL"				=> "Kézbesítve",
 		"MSG_REPLY"			=> "Válasz",
 		"MSG_QUICK"			=> "Gyors Válasz",
-		"MSG_SELECT"		=> "Felhasználó kiválasztása",
+		"MSG_SELECT"		=> "Címzett kiválasztása",
 		"MSG_UNKN"			=> "Ismeretlen Címzett",
 		"MSG_NOTIF"			=> "Üzenetküldési e-mail értesítések",
 		"MSG_BLANK"			=> "Az üzenet nem lehet üres",
@@ -254,11 +254,11 @@ $lang = array_merge($lang,array(
 
 	//2 Factor Authentication
 	$lang = array_merge($lang,array(
-		"2FA"				=> "Kétfaktoros Hitelesítés",
-		"2FA_CONF"	=> "Biztosan letiltod a kétfaktoros hitelesítést (2FA)? A fiókod már nem lesz így védve.",
+		"2FA"				=> "Kétlépcsős Hitelesítés",
+		"2FA_CONF"	=> "Biztosan letiltod a kétlépcsős hitelesítést (2FA)? A fiókod már nem lesz így védve.",
 		"2FA_SCAN"	=> "Olvasd be a QR-kódot a hitelesítő alkalmazással, vagy add meg a kulcsot",
 		"2FA_THEN"	=> "Ezután adja meg az egyszeri kulcsok egyikét",
-		"2FA_FAIL"	=> "Probléma volt a kétfaktoros hitelesítés (2FA) ellenőrzése során. Kérlek, ellenőrizd az internetet vagy fordulj az adminisztrátorhoz.",
+		"2FA_FAIL"	=> "Probléma volt a kétlépcsős hitelesítés (2FA) ellenőrzése során. Kérlek, ellenőrizd az internetet vagy fordulj az adminisztrátorhoz.",
 		"2FA_CODE"	=> "2FA Kód",
 		"2FA_EXP"		=> "Lejárt 1 ujjlenyomat",
 		"2FA_EXPD"	=> "Lejárt",
@@ -266,17 +266,17 @@ $lang = array_merge($lang,array(
 		"2FA_ACTIVE"=> "Aktív Munkamenetek",
 		"2FA_NOT_FN"=> "Nincsenek ujjlenyomatok",
 		"2FA_FP"		=> "Ujjlenyomatok",
-		"2FA_NP"		=> "<strong>Sikertelen Bejelentkezés</strong> Nincs kétfaktoros hitelesítő kód. Kérlek próbáld újra.",
-		"2FA_INV"		=> "<strong>Sikertelen Bejelentkezés</strong> Érvénytelen kétfaktoros hitelesítő kód. Kérlek próbáld újra.",
+		"2FA_NP"		=> "<strong>Sikertelen Bejelentkezés</strong> Nincs kétlépcsős hitelesítő kód. Kérlek próbáld újra.",
+		"2FA_INV"		=> "<strong>Sikertelen Bejelentkezés</strong> Érvénytelen kétlépcsős hitelesítő kód. Kérlek próbáld újra.",
 		"2FA_FATAL"	=> "<strong>Végzetes Hiba</strong> Kérlek fordulj az adminisztrátorhoz.",
 		));
 
 	//Redirect Messages - These get a plus between each word
 	$lang = array_merge($lang,array(
-		"REDIR_2FA"						=> "Sajnos+a+kétfaktoros+hitelesítés+nincs+engedélyezve.",
-		"REDIR_2FA_EN"				=> "Kétfaktoros+Hitelesítés+Engedélyezve",
-		"REDIR_2FA_DIS"				=> "Kétfaktoros+Hitelesítés+Letiltva",
-		"REDIR_2FA_VER"				=> "Kétfaktoros+Hitelesítés+Ellenőrizve+és+Engedélyezve",
+		"REDIR_2FA"						=> "Sajnos+a+kétlépcsős+hitelesítés+nincs+engedélyezve.",
+		"REDIR_2FA_EN"				=> "Kétlépcsős+Hitelesítés+Engedélyezve",
+		"REDIR_2FA_DIS"				=> "Kétlépcsős+Hitelesítés+Letiltva",
+		"REDIR_2FA_VER"				=> "Kétlépcsős+Hitelesítés+Ellenőrizve+és+Engedélyezve",
 		"REDIR_SOM_TING_WONG" => "Valami+baj+történt.+Kérlek+próbáld+újra.",
 		"REDIR_MSG_NOEX"			=> "A+téma+nem+hozzád+tartozik+vagy+nem+létezik.",
 		"REDIR_UN_ONCE"				=> "A+felhasználónév+már+megváltozott+egyszer.",
@@ -366,7 +366,7 @@ $lang = array_merge($lang,array(
 		"MAINT_MSG"			=> "Elnézést a kellemetlenségért, jelenleg karbantartást végzünk.<br> Hamarosan visszajövünk!",
 		"MAINT_BAN"			=> "Sajnálom. Ki lettél tiltva a webhelyről. Ha úgy érzed, ez hiba, kérlek, fordulj az adminisztrátorhoz.",
 		"MAINT_TOK"			=> "Hiba történt az űrlap elküldésekor. Kérlek, próbáld újra és vedd figyelembe, hogy az űrlap újraküldése az oldal frissítésével hibát okoz. Ha ez továbbra is fennáll, fordulj az adminisztrátorhoz.",
-		"MAINT_OPEN"		=> "Egy nyílt forráskódú PHP alapú Felhasználó-kezelő Keretrendszer",
+		"MAINT_OPEN"		=> "Ez egy nyílt forráskódú PHP alapú Felhasználó-kezelő Keretrendszer",
 		"MAINT_PLEASE"	=> "Sikeresen telepítetted a UserSpice-t! <br> Az első lépések megtételében sokat segít az alábbi webhely: "
 		));
 
