@@ -7,5 +7,5 @@ This repository is the home of my informal Hungarian translation of this framwor
 Resources
 ---------
 
-  * [UserSpice](https://userspice.com/)
-  * [main UserSpice4 repository](https://github.com/mudmin/UserSpice4)
+  * [UserSpice's home page](https://userspice.com/)
+  * [UserSpice4 repository](https://github.com/mudmin/UserSpice4)
