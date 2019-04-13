@@ -68,7 +68,7 @@ $lang = array_merge($lang,array(
 
 // Signin
 $lang = array_merge($lang,array(
-	"SIGNIN_FAIL"				=> "** SIKERTELEN BEJELENTKEZÉS **",
+	"SIGNIN_FAIL"				=> "SIKERTELEN BEJELENTKEZÉS - ",
 	"SIGNIN_PLEASE_CHK" => "Kérlek ellenőrizd a felhasználóneved és a jelszavad, majd próbálkozz újra",
 	"SIGNIN_UORE"				=> "Felhasználónév VAGY e-mail cím",
 	"SIGNIN_PASS"				=> "Jelszó",
@@ -120,13 +120,13 @@ $lang = array_merge($lang,array(
 		"GEN_CLOSE"				=> "Bezár",
 		"GEN_CANCEL"			=> "Mégsem",
 		"GEN_CHECK"				=> "[ összes kijelölése/törlése ]",
-		"GEN_WITH"				=> "val/vel",
+		"GEN_WITH"				=> " ",
 		"GEN_UPDATED"			=> "Frissítve",
 		"GEN_UPDATE"			=> "Frissít",
-		"GEN_BY"					=> "tól/től",
-		"GEN_ENABLE"			=> "Engedélyez",
-		"GEN_DISABLE"			=> "Letilt",
-		"GEN_FUNCTIONS"		=> "Funkciók",
+		"GEN_BY"					=> " ",
+		"GEN_ENABLE"			=> "Engedélyezés",
+		"GEN_DISABLE"			=> "Letiltás",
+		"GEN_FUNCTIONS"		=> " ",
 		"GEN_NUMBER"			=> "száma",
 		"GEN_NUMBERS"			=> "számai",
 		"GEN_INFO"				=> "Információ",
@@ -341,7 +341,7 @@ $lang = array_merge($lang,array(
 		"SET_NOTE2"			=> ".</p><p>Kérlek, használd a hitelesítő e-mailt a folyamat befejezéséhez.</p>
 		<p>Ha új hitelesítő e-mailt szeretnél, írd be újra a fenti e-mail címet, és küldd el újra a kérést.</p>",
 
-		"SET_PW_REQ" 		=> " e-mail vagy jelszó megváltoztatásához, PIN-kód visszaállításához szükséges",
+		"SET_PW_REQ" 		=> " ami e-mail cím vagy jelszó megváltoztatásához és PIN-kód visszaállításához szükséges",
 		"SET_PW_REQI" 	=> "Muszáj megváltoztatnod a jelszavadat",
 
 		));
@@ -382,7 +382,7 @@ $lang = array_merge($lang,array(
 		"DAT_INFO"          => "_START_ - _END_ összesen _TOTAL_ találat",
 		"DAT_ZERO"          => "0 - 0 összesen 0 találat",
 		"DAT_FILTERED"      => "(szűrve _MAX_ találatból)",
-		"DAT_MENU_LENG"     => "_MENU_ találat",
+		"DAT_MENU_LENG"     => "Mutass _MENU_ találatot",
 		"DAT_LOADING"       => "Betöltés...",
 		"DAT_PROCESS"       => "Feldolgozás...",
 		"DAT_NO_REC"        => "Nem található megfelelő rekord",
